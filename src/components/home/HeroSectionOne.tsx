@@ -10,6 +10,10 @@ import heroDotImgTwo from "../../../public/assets/img/shape/hero/hero-1-dot.png"
 import YellowBg from "../../../public/assets/img/shape/yellow-bg.png";
 import HeroOne from "../../../public/assets/img/hero/hero-1.jpg";
 import HeroTwo from "../../../public/assets/img/hero/hero-sm-1.jpg";
+import Student1 from "../../../public/assets/img/page-title/student1-home.jpg"
+import Student2 from "../../../public/assets/img/page-title/student2-home.jpg"
+import Student3 from "../../../public/assets/img/page-title/student3-home.jpg"
+import Student4 from "../../../public/assets/img/page-title/student4-home.jpg"
 
 const HeroSectionOne = () => {
   return (
@@ -88,7 +92,7 @@ const HeroSectionOne = () => {
                 </div>
                 <div className="hero__thumb-big mr-30">
                   <Image
-                    src={HeroOne}
+                    src={Student4}
                     style={{ width: "100%", height: "auto" }}
                     alt="img not found"
                   />
@@ -99,7 +103,7 @@ const HeroSectionOne = () => {
                 </div>
                 <div className="hero__thumb-sm mt-50 d-none d-lg-block">
                   <Image
-                    src={HeroTwo}
+                    src={Student3}
                     style={{ width: "auto", height: "auto" }}
                     alt="img not found"
                   />

@@ -56,7 +56,7 @@ const HeaderOne = () => {
                       </ul>
                     </nav>
                   </div>
-                  <div className="header__search p-relative ml-50 d-none d-md-block">
+                  {/* <div className="header__search p-relative ml-50 d-none d-md-block">
                     <form action="#">
                       <input type="text" placeholder="Search..." />
                       <button type="submit">
@@ -83,8 +83,8 @@ const HeaderOne = () => {
                         <span className="cart-item">{cartQuantity}</span>
                       </span>
                     </div>
-                  </div>
-                  <div className="header__cart header__cart--responsive">
+                  </div> */}
+                  {/* <div className="header__cart header__cart--responsive">
                     <span
                       className="cart-toggle-btn"
                       onClick={() => {
@@ -103,7 +103,7 @@ const HeaderOne = () => {
                       </div>
                       <span className="cart-item">{cartQuantity}</span>
                     </span>
-                  </div>
+                  </div> */}
                   <div className="header__btn ml-20 d-none d-sm-block">
                     <Link href="/contact" className="e-btn">
                       Try for free

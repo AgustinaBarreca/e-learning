@@ -12,10 +12,10 @@ const HomeMain = () => {
     <>
       <HeroSectionOne />
       <CategorySection />
-      <BannerSection />
+      {/* <BannerSection /> */}
       <CourseSectionOne />
-      <EventSection />
-      <PriceSectionOne />
+      {/* <EventSection /> */}
+      {/* <PriceSectionOne /> */}
       <CtaSection />
     </>
   );
