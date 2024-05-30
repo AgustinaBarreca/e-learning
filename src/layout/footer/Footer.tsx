@@ -3,6 +3,7 @@ import React from "react";
 import FooterLogo from "../../../public/assets/img/logo/logo-2.png";
 import Image from "next/image";
 import CopyrightArea from "./copyright-area";
+import { SubscribeForm } from "@/form/subscribe-form";
 
 const Footer = () => {
   return (
@@ -128,20 +129,9 @@ const Footer = () => {
                     </div>
                     <div className="footer__widget-body">
                       <div className="footer__subscribe">
-                        <form action="#">
-                          <div className="footer__subscribe-input mb-15">
-                            <input
-                              type="email"
-                              placeholder="Your email address"
-                            />
-                            <button type="submit">
-                              <i className="fas fa-arrow-right"></i>
-                              <i className="fas fa-arrow-right"></i>
-                            </button>
-                          </div>
-                        </form>
+                      <SubscribeForm />
                         <p>
-                          Get the latest news and updates right at your inbox.
+                          Get the latest news and updates right at your inbox
                         </p>
                       </div>
                     </div>
