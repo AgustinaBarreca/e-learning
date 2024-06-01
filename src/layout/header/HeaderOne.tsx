@@ -106,7 +106,7 @@ const HeaderOne = () => {
                   </div> */}
                   <div className="header__btn ml-20 d-none d-sm-block">
                     <Link href="/contact" className="e-btn">
-                      Try for free
+                      Sube tu curso
                     </Link>
                   </div>
                   <div className="sidebar__menu d-xl-none">

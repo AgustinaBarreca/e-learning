@@ -27,7 +27,7 @@ const mobile_menu_data: MenuItem[] = [
     id: 2,
     hasDropdown: false,
     title: "Courses",
-    link: "/course-grid",
+    link: "/404-page",
     pluseIncon: true,
     submenus: [
       { title: "Courses", link: "/course-grid" },
@@ -71,12 +71,12 @@ const mobile_menu_data: MenuItem[] = [
   //     { title: "Error", link: "/error" },
   //   ],
   // },
-  {
-    id: 5,
-    hasDropdown: false,
-    title: "Contact",
-    link: "/contact",
-  },
+  // {
+  //   id: 5,
+  //   hasDropdown: false,
+  //   title: "Contact",
+  //   link: "/contact",
+  // },
 ];
 
 export default mobile_menu_data;

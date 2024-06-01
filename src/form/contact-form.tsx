@@ -22,11 +22,6 @@ const ContactForm = () => {
         </div>
         <div className="col-xxl-12">
           <div className="contact__form-input">
-            <input type="text" placeholder="Subject" name="subject" />
-          </div>
-        </div>
-        <div className="col-xxl-12">
-          <div className="contact__form-input">
             <textarea
               placeholder="Enter Your Message"
               name="message"

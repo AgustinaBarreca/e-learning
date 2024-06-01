@@ -13,7 +13,7 @@ const HomeMain = () => {
       <HeroSectionOne />
       <CategorySection />
       {/* <BannerSection /> */}
-      <CourseSectionOne />
+      {/* <CourseSectionOne /> */}
       {/* <EventSection /> */}
       {/* <PriceSectionOne /> */}
       <CtaSection />

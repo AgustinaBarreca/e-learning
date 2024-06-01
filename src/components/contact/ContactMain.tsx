@@ -41,7 +41,7 @@ const ContactMain = () => {
                 </div>
               </div>
             </div>
-            <div className="col-xxl-4 offset-xxl-1 col-xl-4 offset-xl-1 col-lg-5 offset-lg-1">
+            {/* <div className="col-xxl-4 offset-xxl-1 col-xl-4 offset-xl-1 col-lg-5 offset-lg-1">
               <div className="contact__info white-bg p-relative z-index-1">
                 <div className="contact__shape">
                   <Image
@@ -157,11 +157,11 @@ const ContactMain = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
-      <ContactContent />
+      {/* <ContactContent /> */}
     </>
   );
 };

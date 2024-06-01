@@ -10,12 +10,12 @@ import CategotyIconThere from "@/svg/category-icon-there";
 import CategoryIconTwo from "@/svg/category-icon-two";
 
 const category_data: categoryType[] = [
-  {
-    id: 1,
-    icon: CategoryIconOne,
-    title: "Data Science",
-    desc: "Data is Everything",
-  },
+  // {
+  //   id: 1,
+  //   icon: CategoryIconOne,
+  //   title: "Data Science",
+  //   desc: "Data is Everything",
+  // },
   {
     id: 2,
     icon: CategoryIconTwo,
@@ -52,17 +52,17 @@ const category_data: categoryType[] = [
     title: "Health & Fitness",
     desc: "Invest to Your Body",
   },
-  {
-    id: 8,
-    icon: CategoryIconEight,
-    title: "Music",
-    desc: "Major or Minor",
-  },
-  {
-    id: 9,
-    icon: CategoryIconNine,
-    title: "Academics",
-    desc: "High Education Level",
-  },
+  // {
+  //   id: 8,
+  //   icon: CategoryIconEight,
+  //   title: "Music",
+  //   desc: "Major or Minor",
+  // },
+  // {
+  //   id: 9,
+  //   icon: CategoryIconNine,
+  //   title: "Academics",
+  //   desc: "High Education Level",
+  // },
 ];
 export default category_data;

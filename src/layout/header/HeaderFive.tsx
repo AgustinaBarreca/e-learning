@@ -100,11 +100,11 @@ const HeaderFive = () => {
                       <span className="cart-item">{quantityProduct}</span>
                     </span>
                   </div>
-                  <div className="header__btn ml-20 d-none d-sm-block">
+                  {/* <div className="header__btn ml-20 d-none d-sm-block">
                     <Link href="/contact" className="e-btn">
-                      Try for free
+                      Sube tu curso
                     </Link>
-                  </div>
+                  </div> */}
                   <div className="sidebar__menu d-xl-none">
                     <div
                       onClick={toggleSideMenu}

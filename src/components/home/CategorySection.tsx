@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const CategorySection = () => {
   return (
-    <section className="category__area pt-120 pb-70">
+    <section className="category__area pt-0 pb-170">
       <div className="container">
         <div className="row align-items-end">
           <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-8">

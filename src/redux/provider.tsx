@@ -11,7 +11,7 @@ const ReduxProvider: React.FC<{ children: React.ReactNode }> = ({ children }) =>
   useEffect(() => {
     const loadingTimeout = setTimeout(() => {
       setIsLoading(false);
-    }, 4000); // Set the desired delay in milliseconds
+    }, 1000); // Set the desired delay in milliseconds
 
     return () => clearTimeout(loadingTimeout);
   }, []);
@@ -19,16 +19,11 @@ const ReduxProvider: React.FC<{ children: React.ReactNode }> = ({ children }) =>
   return (
     <Provider store={store}>
       <PersistGate loading={<Preloader />} persistor={persistor}>
-        {
-          isLoading ?
-            <>
-              <Preloader />
-            </>
-            :
+       
             <>
               {children}
             </>
-        }
+      
       </PersistGate>
     </Provider>
   );
