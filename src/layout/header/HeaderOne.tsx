@@ -33,7 +33,7 @@ const HeaderOne = () => {
         >
           <div className="container-fluid">
             <div className="row align-items-center">
-              <div className="col-xxl-3 col-xl-3 col-lg-4 col-md-2 col-sm-4 col-6">
+              <div className="col-xxl-3 col-xl-3 col-lg-4 col-md-2 col-sm-4 col-6 ps-0 pe-4 ps-sm-3 pe-sm-3">
                 <div className="header__left d-flex">
                   <div className="logo">
                     <Link href="/">
