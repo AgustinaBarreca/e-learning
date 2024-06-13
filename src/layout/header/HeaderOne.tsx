@@ -32,9 +32,9 @@ const HeaderOne = () => {
             }`}
         >
           <div className="container-fluid">
-            <div className="row align-items-center">
+            <div className="row align-items-center pt-1 pt-md-2" >
               <div className="col-xxl-3 col-xl-3 col-lg-4 col-md-2 col-sm-4 col-6 ps-0 pe-4 ps-sm-3 pe-sm-3">
-                <div className="header__left d-flex">
+                <div className="header__left d-flex align-items-center" style={{ paddingBottom: "5px" }}>
                   <div className="logo">
                     <Link href="/">
                       <Image
