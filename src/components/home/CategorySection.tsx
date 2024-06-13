@@ -10,7 +10,7 @@ const CategorySection = () => {
       <div className="container">
         <div className="row align-items-end">
           <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-8">
-            <div className="section__title-wrapper mb-45">
+            <div className="section__title-wrapper mt-lg-0 mt-md-4 mt-100 mb-45">
               <h2 className="section__title">
                 Explore <br />
                 Our{" "}
