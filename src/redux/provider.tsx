@@ -11,7 +11,7 @@ const ReduxProvider: React.FC<{ children: React.ReactNode }> = ({ children }) =>
   useEffect(() => {
     const loadingTimeout = setTimeout(() => {
       setIsLoading(false);
-    }, 1000); // Set the desired delay in milliseconds
+    }, 1); // Set the desired delay in milliseconds
 
     return () => clearTimeout(loadingTimeout);
   }, []);

@@ -27,7 +27,7 @@ const mobile_menu_data: MenuItem[] = [
     id: 2,
     hasDropdown: false,
     title: "Courses",
-    link: "/404-page",
+    link: "/subscribe",
     pluseIncon: true,
     submenus: [
       { title: "Courses", link: "/course-grid" },

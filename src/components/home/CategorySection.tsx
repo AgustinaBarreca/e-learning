@@ -17,7 +17,7 @@ const CategorySection = () => {
                 <span className="yellow-bg">
                   Popular{" "}
                   <Image
-                    src={YellowBg} style={{width:'auto', height:"auto"}}
+                    src={YellowBg} style={{ width: 'auto', height: "auto" }}
                     alt="img not found"
                   />{" "}
                 </span>
@@ -41,19 +41,19 @@ const CategorySection = () => {
               key={item.id}
               className="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6"
             >
-              <div className="category__item mb-30 transition-3 d-flex align-items-center">
-                <div className="category__icon mr-30">
-                  {item.icon && <item.icon />}
-                </div>
-                <div className="category__content">
-                  <h4 className="category__title">
-                    <Link href={`/course-details/${item.id}`}>
+              <Link href='/subscribe'>
+                <div className="category__item mb-30 transition-3 d-flex align-items-center category__item-link">
+                  <div className="category__icon mr-30">
+                    {item.icon && <item.icon />}
+                  </div>
+                  <div className="category__content">
+                    <h4 className="category__title">
                       {item.title}
-                    </Link>
-                  </h4>
-                  <p>{item.desc}</p>
+                    </h4>
+                    <p>{item.desc}</p>
+                  </div>
                 </div>
-              </div>
+              </Link>
             </div>
           ))}
         </div>

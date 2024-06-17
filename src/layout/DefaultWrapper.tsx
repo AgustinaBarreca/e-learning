@@ -34,6 +34,10 @@ const Wrapper: React.FC<WrapperProps> = ({ children }) => {
         switch (pathName) {
           case "/":
             return <HeaderOne />;
+          case "/subscribe":
+            return <HeaderOne />;
+          case "/contact":
+            return <HeaderOne />;
           case "/home-2":
             return <HeaderTwo />;
           case "/home-3":
@@ -53,7 +57,7 @@ const Wrapper: React.FC<WrapperProps> = ({ children }) => {
           case "/policy-privacy":
             return <HeaderFour />;
           default:
-            return <HeaderFive />;
+            return <HeaderOne />;
         }
       })()}
       {children}

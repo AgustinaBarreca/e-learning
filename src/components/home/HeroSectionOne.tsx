@@ -61,7 +61,7 @@ const HeroSectionOne = () => {
                   Meet university,and cultural institutions, {`who'll`} share
                   their experience.
                 </p>
-                <Link href="/404-page" className="e-btn">
+                <Link href="/subscribe" className="e-btn">
                   view all courses
                 </Link>
               </div>
