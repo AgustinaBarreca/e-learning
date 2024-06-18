@@ -19,8 +19,8 @@ const CopyrightArea = ({ wrapperClass, footerClass }: any) => {
               }
             >
               <p>
-                © 2023 Educal, All Rights Reserved. Design By{" "}
-                <Link href="/">Theme Pure</Link>
+                © 2024 Get Your Top, All Rights Reserved. Design By{" "}
+                <Link href="/"> GYT </Link>
               </p>
             </div>
           </div>
