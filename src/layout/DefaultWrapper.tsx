@@ -14,6 +14,7 @@ import HeaderThere from "./header/HeaderThere";
 import HeaderFour from "./header/HeaderFour";
 import HeaderFive from "./header/HeaderFive";
 import FooterTwo from "./footer/footerTwo";
+import FooterSubscribe from "./footer/FooterSubscribe";
 
 interface WrapperProps {
   children: React.ReactNode;
@@ -63,10 +64,12 @@ const Wrapper: React.FC<WrapperProps> = ({ children }) => {
       {children}
       {(() => {
         switch (pathName) {
-          default:
-            return <Footer />;
           case "/home-2":
             return <FooterTwo />;
+          case "/subscribe":
+            return <FooterSubscribe />
+          default:
+            return <Footer />;
         }
       })()}
     </>

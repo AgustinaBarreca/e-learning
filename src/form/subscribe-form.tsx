@@ -28,7 +28,7 @@ export const SubscribeForm = () => {
   }
 
     return ( <form onSubmit={subscribe}>
-    <div className="footer__subscribe-input mb-15">
+    <div className="footer__subscribe-input input_email mb-15">
       <input
         type="email"
         placeholder="Your email address"

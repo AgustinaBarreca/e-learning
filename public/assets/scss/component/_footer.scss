@@ -6,11 +6,50 @@
 
 
 .footer {
+    &__main {
+        &-subscribe-section {
+            height: 100vh !important;
+            display: flex;
+            flex-direction: column;
+            justify-content: center; // Centra el contenido verticalmente
+            align-items: center; // Centra el contenido horizontalmente
+            height: 100vh; // Altura del contenedor es 100vh
+            position: relative; // Para permitir que el footer se fije en la parte inferior
+            overflow: hidden; // Evita el scroll
+        }
+    }
+
+    &__area {
+        &-subscribe-section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
     &__widget {
         &-title {
             padding-top: 5px;
             font-size: 20px;
             color: $white;
+
+            &-subscribe-section {
+                @media #{$lg} {
+                    text-align: start;
+                }
+    
+                @media #{$md} {
+                    text-align: start;
+                }
+    
+                @media #{$sm} {
+                    text-align: center;
+                }
+    
+                @media #{$xs} {
+                    text-align: center;
+                }
+            }
 
             &-2 {
                 color: $black;
@@ -198,6 +237,64 @@
                 color: $e-text-3;
             }
         }
+
+        &-section-col {
+            display: flex;
+            justify-content: center;
+        }
+
+        &-section-email {
+            @media #{$xxxxl} {
+                width: 600px;
+            }
+
+            @media #{$xxxl} {
+                width: 600px;
+            }
+
+            @media #{$xxl} {
+                width: 600px;
+            }
+
+            @media #{$xl} {
+                width: 600px;
+            }
+
+            @media #{$lg} {
+                width: 500px;
+            }
+
+            @media #{$md} {
+                width: 100%;
+            }
+
+            @media #{$sm} {
+                width: 100%;
+            }
+
+            @media #{$xs} {
+                width: 100%;
+            }
+
+            p {
+                @media #{$lg} {
+                    text-align: start;
+                }
+
+                @media #{$md} {
+                    text-align: start;
+                }
+
+                @media #{$sm} {
+                    text-align: center;
+                }
+
+                @media #{$xs} {
+                    text-align: center;
+                }
+            }
+
+        }
     }
 
     &__pl-70 {
@@ -227,6 +324,8 @@
         &-2 {
             border-color: $border-6;
         }
+
+     
     }
 
     &__copyright {
