@@ -24,7 +24,7 @@ const Wrapper: React.FC<WrapperProps> = ({ children }) => {
   const pathName = usePathname();
   useEffect(() => {
     setTimeout(() => {
-     // animationCreate();
+     animationCreate();
     }, 200);
   }, []);
 

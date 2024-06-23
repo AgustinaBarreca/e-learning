@@ -28,7 +28,7 @@ const HeaderOne = () => {
       <header>
         <div
           id="header-sticky"
-          className={`header__area header__padding ${scrollDirection === "down" ? "sticky" : ""
+          className={`header__area header__padding ${scrollDirection === "down" ? "sticky" : "sticky-mobile"
         }`}>
           <div className="container-fluid">
             <div className="row align-items-center pt-1 pt-md-2" >
