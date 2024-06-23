@@ -30,7 +30,6 @@ const Wrapper: React.FC<WrapperProps> = ({ children }) => {
 
   return (
     <>
-      <BacktoTop />
       {(() => {
         switch (pathName) {
           case "/":
