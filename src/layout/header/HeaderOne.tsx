@@ -3,7 +3,6 @@ import React, { useContext, useState } from "react";
 import Link from "next/link";
 import HeaderLogo from "../../../public/assets/img/logo/logo.png";
 import Image from "next/image";
-import useScrollDirection from "@/hooks/sticky-header";
 import { useDispatch } from "react-redux";
 import { useSelector } from "react-redux";
 import { RootState } from "@/redux/store";
@@ -16,7 +15,6 @@ import HeaderCategory from "./component/HeaderCategory";
 import { useUniqueProductCount, useUniqueWishlstCount } from "@/hooks/useCartQuantity";
 
 const HeaderOne = () => {
-  const scrollDirection = useScrollDirection(null);
   const { toggleSideMenu, sideMenuOpen } = useContext(
     AppContext
   ) as AppContextType;
@@ -28,8 +26,7 @@ const HeaderOne = () => {
       <header>
         <div
           id="header-sticky"
-          className={`header__area header__padding ${scrollDirection === "down" ? "sticky" : ""
-        }`}>
+          className="header__area header__padding sticky">
           <div className="container-fluid">
             <div className="row align-items-center pt-1 pt-md-2" >
               <div className="col-xxl-3 col-xl-3 col-lg-4 col-md-2 col-sm-4 col-6 ps-0 pe-4 ps-sm-3 pe-sm-3">
