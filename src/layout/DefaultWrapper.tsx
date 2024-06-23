@@ -31,7 +31,7 @@ const Wrapper: React.FC<WrapperProps> = ({ children }) => {
   return (
     <>
       <BacktoTop />
-      {/* {(() => {
+      {(() => {
         switch (pathName) {
           case "/":
             return <HeaderOne />;
@@ -60,7 +60,7 @@ const Wrapper: React.FC<WrapperProps> = ({ children }) => {
           default:
             return <HeaderOne />;
         }
-      })()} */}
+      })()}
       {children}
       {(() => {
         switch (pathName) {
