@@ -22,6 +22,11 @@ interface WrapperProps {
 
 const Wrapper: React.FC<WrapperProps> = ({ children }) => {
   const pathName = usePathname();
+  useEffect(() => {
+    setTimeout(() => {
+     // animationCreate();
+    }, 200);
+  }, []);
 
   return (
     <>
